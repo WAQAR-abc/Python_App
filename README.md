@@ -10,6 +10,7 @@ This is a simple python app using flask. It runs on port 5000.
 > docker image build -t python_app .
 
 > docker run -p 5000:5000 python_app
+
 This will run the app inside container and map's the port 5000 of container with system's port 5000.
 
 Now you can access the app on both <u>http://containerIP:5000</u> & <u>http://systemIP:5000</u>
