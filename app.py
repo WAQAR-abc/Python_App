@@ -10,7 +10,7 @@ app = Flask(__name__)
 def hello_world():
     # Log the request with an info level message
     app.logger.info('🌐 App endpoint was accessed.')
-    return 'Hey DevOps Learner!💫 \nYou are doing great!. Keep Learning!✨'
+    return 'Hey DevOps Learner!💫 <br>You are doing great! Keep Learning!✨'
 
 if __name__ == '__main__':
     # This ensures the app listens on all network interfaces inside the container
